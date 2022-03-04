@@ -1,0 +1,27 @@
+.content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-container > * {
+  flex: 1;
+}
+
+.video-card-container {
+  cursor: pointer;
+  padding: 10px !important;
+}
+
+.video-card-container:hover {
+  background-color: rgb(239, 242, 245) !important;
+}
+
+.reset {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.selected-vid-container {
+  margin-right: 20px !important;
+  padding: 10px !important;
+}
